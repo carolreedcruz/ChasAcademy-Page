@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    font-family:"Montserrat", sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+    
+    
+}
+/*header*/
+
+
+
+header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 17px 10%;
+    background-color: rgb(7, 33, 71);
+
+}
+
+li, a, button {
+    font-family:"Montserrat", sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+
+.headloggo {
+    width: 93px;
+    height: 85px;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display:inline-block;
+    padding:0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #6ec4e4;
+}
+
+button {
+    margin-left:20px;
+    padding: 9px 25px;
+    background-color:#6ec4e4;
+    border:none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+    background-color:#3f86a4;
+}
+/*header*/
+
+/*hero-section*/
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:150px;
+    margin:50px;
+    
+    
+}
+
+.hero-section h1,
+.hero-section h2,
+.hero-section button {
+    margin-bottom: 38px; /* Add some space between the elements */
+    margin-left: 53px;
+}
+
+.homepage-title {
+    font-size:70px;
+    margin:25px;
+    text-align: center;
+}
+
+h2{
+    font-size:20px;
+}
+
+
+
+.cta-section{
+    font-size:26px;
+    margin-left:20px;
+    padding: 9px 25px;
+    background-color:#6ec4e4;
+    border:none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    width: 189px;
+    height: 64px
+   
+
+}
+
+.cta-section:hover {
+    background-color:#3f86a4;
+}
+
+/*herosection*/
+
+/*about-section*/
+.about-image{
+    height: 417px;
+    width: 529px;
+}
+
+.about-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:140px;
+}
+
+.about-info {
+    padding:50px;
+}
+
+h3 {
+    margin-top:10px;
+}
+
+.p-about {
+    margin-top:10px;
+}
+
+/*about-section*/
+
+
+
+/*info-section*/
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:100px;
+}
+
+.title {
+    font-size:40px;
+}
+
+.boxes {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.box-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:100px;
+    display: inline-block;
+    width: 160px;
+    height: 172px;
+    border: 1px solid #6ec4e4;
+    border-radius: 10px;
+    text-align: center;
+    padding: 54px;
+    margin: 29px;
+    background-color:#5fb3d1;
+}
+
+.p-boxes{
+    font-size:28px;
+    font-style: italic;
+    color:white;
+    
+}
+/*info-section*/
+
+/*ansokan-section*/
+
+.ansokan-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:140px;
+}
+
+.p-ansokan {
+    margin-top: 30px;
+    margin-bottom:60px;
+    text-align: center;
+}
+/*ansokan-section*/
+
+/*footer*/
+
+footer {
+    background-color: rgb(3, 18, 40);
+    display: flex;
+    align-items: center;
+    font-size:14px;
+    
+}
+
+.footer-loggo {
+    width:100px;
+    height:100px;
+    
+    
+}
+
+.footer-box {
+    padding:30px;
+    justify-content: flex-end;
+    margin-left:auto;
+}
+
+.footer-info {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white; 
+    margin-left:50px;
+    padding:13px;
+}
+
+.footer-box1 {
+    margin-right:10px;
+    padding:10px;
+    
+}
+
+.footer-box2{
+    padding:20px;
+    margin-left:120px;
+}
+
+#contact-title {
+    font-weight:600;
+    margin-bottom: 15px;
+    font-size:20px;
+    color: #ffffff;
+
+}
+
+.footer-title {
+    font-size:15px;
+    margin-bottom:6px;
+    margin-top:15px;
+    font-weight:600;
+}
+
+#footer-links {
+    font-size:10px;
+}
+
+#footer-links li a:hover {
+    color: #6ec4e4;
+}
